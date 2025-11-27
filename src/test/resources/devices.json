@@ -1,0 +1,19 @@
+{
+  "devices": [
+    {
+      "name": "Pixel 7",
+      "platformName": "Android",
+      "platformVersion": "16",
+      "deviceName": "Pixel 7",
+      "udid": "emulator-5554"
+    },
+    {
+      "name": "Pixel 9 Pro",
+      "platformName": "Android",
+      "platformVersion": "16",
+      "deviceName": "Pixel 9 Pro",
+      "udid": "emulator-5556"
+    }
+  ]
+}
+
