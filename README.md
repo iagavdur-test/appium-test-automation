@@ -91,8 +91,6 @@ junit.jupiter.execution.parallel.config.fixed.max-pool-size=1
 - Только smoke-тесты:  
   `mvn clean test -Djunit.jupiter.tags=smoke`
 
-- Параллельный прогон на N устройствах:
-
 - Прогон с указанием конкретного тестового класса:  
   `mvn -Dtest=tests.login.LoginTests#testSuccessLogin test`
 
@@ -105,4 +103,3 @@ allure serve target/allure-results        # интерактивный прос�
 allure generate target/allure-results \
     --clean -o target/allure-report       # статический отчёт
 ```
-
