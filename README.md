@@ -89,7 +89,7 @@ junit.jupiter.execution.parallel.config.fixed.max-pool-size=1
   `mvn clean test`
 
 - Только smoke-тесты:  
-  `mvn clean test -Djunit.jupiter.tags=smoke`
+  `mvn clean test -Dgroups=smoke`
 
 - Прогон с указанием конкретного тестового класса:  
   `mvn -Dtest=tests.login.LoginTests#testSuccessLogin test`
